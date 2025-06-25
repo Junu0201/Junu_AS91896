@@ -18,3 +18,5 @@ if user == "rock" and computer == "paper" or user == "paper" and computer == "sc
 if user == "scissor" and computer == "paper" or user == "paper" and computer =="rock" or user == "rock" and computer == "scisssor":
     print("Win")
     score += 1
+
+print ("Your score is {}".format (score))
