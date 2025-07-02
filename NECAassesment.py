@@ -27,7 +27,7 @@ while loop < 5:
     if user == "rock" and computer == "paper" or user == "paper" and computer == "scissor" or user == "scissor" and computer == "rock":
         print("Lose")
         score -= 1
-    if user == "scissor" and computer == "paper" or user == "paper" and computer =="rock" or user == "rock" and computer == "scisssor":
+    if user == "scissor" and computer == "paper" or user == "paper" and computer =="rock" or user == "rock" and computer == "scissor":
         print("Win")
         score += 1
     loop += 1
